@@ -8,7 +8,7 @@ class FirstAcess {
   static const FIRST_ACESS   = 1;
   static const APP_UPDATE    = 2;
 
-  Future<int> getAcessInfo(String appKey) async {
+  static Future<int> getAcessInfo(String appKey) async {
       Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
 
       final prefs = await _prefs;
