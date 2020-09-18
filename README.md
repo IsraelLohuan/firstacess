@@ -1,6 +1,6 @@
 # firstacess
 
-A new Flutter package.
+Pacote para uso pessoal.
 
 ## Getting Started
 
